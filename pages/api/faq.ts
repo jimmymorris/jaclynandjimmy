@@ -77,7 +77,7 @@ export default function handler(req: NextApiRequest, res: NextApiResponse<Questi
       ],
     },
     {
-      question: `What can I do while I'm in Washington, D.C.`,
+      question: `What can I do while I'm in Washington, D.C.?`,
       answer: [
         `We're excited for you to explore our city! Check out the <a href="#travel">Travel</a> section for some recommendations.`,
       ],
