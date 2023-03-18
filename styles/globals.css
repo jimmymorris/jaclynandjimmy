@@ -45,4 +45,18 @@
   p {
     @apply mb-4
   }
+
+  main a {
+    @apply link;
+    @apply link-primary;
+    @apply underline;
+  }
+
+  .bg-primary, .bg-primary a, .bg-primary a:hover, .bg-primary a:focus {
+    @apply text-primary-content;
+  }
+
+  i, em {
+    @apply italic;
+  }
 }

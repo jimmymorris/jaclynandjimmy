@@ -4,10 +4,12 @@ import '../styles/globals.css';
 
 export const openSans = Open_Sans({
   subsets: ['latin'],
+  style: ['normal', 'italic'],
 });
 
 export const playfair = Playfair_Display({
   subsets: ['latin'],
+  style: ['normal', 'italic'],
 });
 
 const App = ({ Component, pageProps }: AppProps) => (
