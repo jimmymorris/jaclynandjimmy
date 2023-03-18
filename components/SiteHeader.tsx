@@ -9,9 +9,9 @@ const SiteHeader = ({ showNav, handleNav }: Props) => {
   return (
     <header className="fixed w-full bg-secondary text-secondary-content top-0 flex justify-center py-4 px-4 sm:px-6 lg:px-8 z-50">
       <div className="w-full flex max-w-screen-xl justify-between items-center">
-        <div className="font-serif text-2xl md:text-4xl flex-1 md:flex md:items-center md:gap-12">
+        <div className="font-display text-2xl md:text-4xl flex-1 md:flex md:items-center md:gap-12">
           <a href="#" className="p-4 pl-0">
-            <em>J & J</em>
+            J & J
           </a>
         </div>
         <div className="md:flex md:items-center md:gap-12">

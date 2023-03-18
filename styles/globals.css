@@ -3,16 +3,20 @@
 @tailwind utilities;
 
 @layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
   body {
     @apply font-sans;
   }
 
   h1 {
-    @apply text-4xl;
+    @apply text-6xl;
   }
 
   h2 {
-    @apply text-3xl;
+    @apply text-5xl;
   }
 
   h3 {
@@ -39,11 +43,11 @@
   h6 {
     @apply font-serif;
     @apply font-bold;
-    @apply leading-loose
+    @apply leading-normal;
   }
 
   p {
-    @apply mb-4
+    @apply mb-4;
   }
 
   main a {
@@ -52,11 +56,15 @@
     @apply underline;
   }
 
-  .bg-primary, .bg-primary a, .bg-primary a:hover, .bg-primary a:focus {
+  .bg-primary,
+  .bg-primary a,
+  .bg-primary a:hover,
+  .bg-primary a:focus {
     @apply text-primary-content;
   }
 
-  i, em {
+  i,
+  em {
     @apply italic;
   }
 }

@@ -39,18 +39,23 @@ const Home: NextPage = () => {
           </article>
           <article
             id="details"
-            className="inline-block px-4 py-8 sm:py-12 sm:px-6 lg:py-16 lg:px-8 scroll-my-24"
+            className="inline-block w-full px-4 py-8 sm:py-12 sm:px-6 lg:py-16 lg:px-8 scroll-my-24"
           >
-            <h2 className="mb-4">Event Details</h2>
+            <h2 className="mb-12">Event Details</h2>
             <EventDetails imgSrc={nats} />
           </article>
           <article
             id="travel"
             className="inline-block px-4 py-8 sm:py-12 sm:px-6 lg:py-16 lg:px-8 scroll-my-24"
           >
-            <h2 className="mb-4">Stay & Travel</h2>
+            <h2 className="mb-8">Stay & Travel</h2>
             <TravelDetails />
           </article>
+          {/* registry goes here */}
+          {/* registry goes here */}
+          {/* registry goes here */}
+          {/* registry goes here */}
+          {/* registry goes here */}
           <article
             id="qa"
             className="inline-block w-full px-4 py-8 sm:py-12 sm:px-6 lg:py-16 lg:px-8 scroll-my-24"

@@ -1,17 +1,5 @@
 /** @type {import('tailwindcss').Config} */
 const { fontFamily } = require('tailwindcss/defaultTheme');
-/*
-
-Palette
-lilac: #999EBE
-light pink: #F3CEBC
-persian plum: #6B2629
-eggshell: #EBE3D6
-orange: #F56645
-rifle green: #404D33
-dark jungle green: #1F201F
-
-*/
 
 const PALETTE = {
   lilac: '#999EBE',
@@ -35,6 +23,7 @@ module.exports = {
       fontFamily: {
         sans: [`var(--font-open-sans)`, ...fontFamily.sans],
         serif: [`var(--font-playfair)`, ...fontFamily.serif],
+        display: ['var(--font-special)', ...fontFamily.sans],
       },
     },
   },

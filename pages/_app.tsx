@@ -1,5 +1,5 @@
 import type { AppProps } from 'next/app';
-import { Open_Sans, Playfair_Display } from 'next/font/google';
+import { Open_Sans, Playfair_Display, Sacramento } from 'next/font/google';
 import '../styles/globals.css';
 
 export const openSans = Open_Sans({
@@ -12,6 +12,11 @@ export const playfair = Playfair_Display({
   style: ['normal', 'italic'],
 });
 
+export const sacramento = Sacramento({
+  weight: '400',
+  subsets: ['latin'],
+});
+
 const App = ({ Component, pageProps }: AppProps) => (
   <>
     <style jsx global>
@@ -19,6 +24,7 @@ const App = ({ Component, pageProps }: AppProps) => (
         :root {
           --font-open-sans: ${openSans.style.fontFamily};
           --font-playfair: ${playfair.style.fontFamily};
+          --font-special: ${sacramento.style.fontFamily};
         }
       `}
     </style>
