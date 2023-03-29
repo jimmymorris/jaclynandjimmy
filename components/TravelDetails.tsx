@@ -52,6 +52,23 @@ const TravelDetails = () => (
         }
         bookingLink="https://www.marriott.com/events/start.mi?id=1677609881802&key=GRP"
       />
+      <HotelCard
+        name="Hilton Garden Inn Washington DC/Georgetown"
+        address="2201 M Street NW, Washington, D.C. 20037"
+        mapLink="https://www.google.com/maps/place/Hilton+Garden+Inn+Washington+DC%2FGeorgetown+Area/@38.9055456,-77.0513498,17z/data=!3m1!4b1!4m9!3m8!1s0x89b7b7b658c35127:0x2d2ac05032b62733!5m2!4m1!1i2!8m2!3d38.9055456!4d-77.0491558!16s%2Fg%2F11bbrl74nh"
+        description={
+          <>
+            <p>
+              We have a limited number of guest rooms available at a discount. Please use the
+              provided link, or our discount code “RMWB” to book.
+            </p>
+            <p>
+              The last day to book this rate is <strong>Wednesday, September 20, 2023.</strong>
+            </p>
+          </>
+        }
+        bookingLink="https://www.hilton.com/en/book/reservation/deeplink/?ctyhocn=WASWEGI&groupCode=RMWB&arrivaldate=2023-10-20&departuredate=2023-10-22&cid=OM,WW,HILTONLINK,EN,DirectLink&fromId=HILTONLINKDIRECT"
+      />
     </div>
     <section className="inline-block">
       <h3 className="my-4">Nearby Airports & Train Stations</h3>
