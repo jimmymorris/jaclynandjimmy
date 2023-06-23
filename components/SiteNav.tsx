@@ -32,6 +32,15 @@ const SiteNav = ({ showNav, handleNav }: Props) => (
       <li>
         <a
           onClick={() => handleNav(false)}
+          href="#registry"
+          className="hover:text-secondary hover:bg-secondary-content"
+        >
+          Registry
+        </a>
+      </li>
+      <li>
+        <a
+          onClick={() => handleNav(false)}
           href="#qa"
           className="hover:text-secondary hover:bg-secondary-content"
         >

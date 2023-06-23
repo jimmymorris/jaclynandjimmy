@@ -36,7 +36,9 @@ export default function handler(req: NextApiRequest, res: NextApiResponse<Questi
     {
       question: `What should I wear?`,
       answer: [
-        `Formal or black tie optional. (Because life is black tie optional!) We suggest formal attire that's comfortable, but elegant. That means suit and tie, tuxedo if you're feeling fancy, cocktail dress, floor-length dresses, or gowns, or a stylish combination of suiting pieces. No shirt, no shoes, no entry.`,
+        `We suggest cocktail or formal attire that's comfortable, but elegant. That means suit and tie, cocktail dress, floor-length dresses, or gowns, or a stylish combination of suiting pieces.`,
+        `No shirt, no shoes, no entry. Remember this <em>is</em> DC and not West Virginia.`,
+        `<div style="width:100%;height:0;padding-bottom:54%;position:relative;"><img src="https://media.giphy.com/media/l41YxlUqVzatpICbK/giphy.gif" width="100%" height="100%" style="position:absolute" frameBorder="0" /></div>`,
       ],
     },
     {
@@ -54,7 +56,16 @@ export default function handler(req: NextApiRequest, res: NextApiResponse<Questi
     {
       question: `I'm coming from out of town. Where should I stay?`,
       answer: [
-        `We have room blocks at The Ritz-Carlton Georgetown and Westin Georgetown as noted on the <a href="#travel">Travel</a> section, but you are welcome to rest your head wherever works best for you!`,
+        `We have room blocks at The Ritz-Carlton Georgetown, Westin Georgetown, and Hilton Garden Inn Georgetown as noted on the <a href="#travel">Travel</a> section, but you are welcome to rest your head wherever works best for you!`,
+      ],
+    },
+    {
+      question: `Where are you registered?`,
+      answer: [
+        `The best gift is your presence, but if you feel so inclined, we have a gift registry at
+          Crate & Barrel, Williams Sonoma, Amazon, and a few smaller shops online. We've also added
+          a few charities we care about if you'd like to donate in our honor.`,
+        `All of this is consolidated over at <a href="https://www.zola.com/registry/jaclynandjimmy2023" target="_blank">Zola</a>.`,
       ],
     },
     {

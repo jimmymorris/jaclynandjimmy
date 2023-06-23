@@ -15,10 +15,11 @@ import photoBooth from '../public/images/photobooth.jpg';
 import nats from '../public/images/nats.jpg';
 import fetcher from '../utils/fetcher';
 import TravelDetails from '../components/TravelDetails';
+import Registry from '../components/Registry';
 
 const Home: NextPage = () => {
   const [showNav, setNavShow] = React.useState<boolean>(false);
-  const { data: faqData, error: faqError, isLoading: isFAQLoading } = useSwr('/api/faq', fetcher);
+  const { data: faqData, isLoading: isFAQLoading } = useSwr('/api/faq', fetcher);
   const handleNav = (override: boolean) => {
     setNavShow(override === undefined ? !showNav : override);
   };
@@ -51,11 +52,13 @@ const Home: NextPage = () => {
             <h2 className="mb-8">Stay & Travel</h2>
             <TravelDetails />
           </article>
-          {/* registry goes here */}
-          {/* registry goes here */}
-          {/* registry goes here */}
-          {/* registry goes here */}
-          {/* registry goes here */}
+          <article
+            id="registry"
+            className="inline-block w-full px-4 py-8 sm:py-12 sm:px-6 lg:py-16 lg:px-8 scroll-my-24"
+          >
+            <h2 className="mb-12">Registry Information</h2>
+            <Registry />
+          </article>
           <article
             id="qa"
             className="inline-block w-full px-4 py-8 sm:py-12 sm:px-6 lg:py-16 lg:px-8 scroll-my-24"
