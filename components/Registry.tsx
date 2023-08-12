@@ -3,9 +3,12 @@ const Registry = () => (
     <section className="flex flex-col md:flex-row gap-8 md:gap-12 items-start">
       <div className="flex flex-col w-full md:w-2/3 lg:w-3/4 xl:3/4">
         <p>
-          The best gift is your presence, but if you feel so inclined, we have a gift registry at
-          Crate & Barrel, Williams Sonoma, Amazon, and a few smaller shops online. We've also added
-          a few charities we care about if you'd like to donate in our honor.
+          The best gift is your presence, but if you feel so inclined, we have a{' '}
+          <a href="https://www.zola.com/registry/jaclynandjimmy2023" target="_blank">
+            gift registry
+          </a>{' '}
+          at Crate & Barrel, Williams Sonoma, Amazon, and a few smaller shops online. We've also
+          added a few charities we care about if you'd like to donate in our honor.
         </p>
         <p>
           All of this is consolidated over at{' '}

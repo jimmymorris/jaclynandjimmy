@@ -14,7 +14,24 @@ const EventDetails = ({ imgSrc }: EventDetailsType) => (
             <em>Friday, October 20</em>
           </p>
           <p className="mb-4">
-            Details TBD
+            <strong>Degrees Bistro / Lobby Bar</strong>
+            <br />
+            <a
+              href="https://www.google.com/maps/place/The+Ritz-Carlton+Georgetown,+Washington,+D.C./@38.9029838,-77.0639205,17z/data=!3m2!4b1!5s0x89b7b64c1b993003:0x5bcd719f7c6e2191!4m11!3m10!1s0x89b7b64c1b65ffc1:0x50f48f3cd9383f34!5m4!1s2023-07-02!2i6!4m1!1i2!8m2!3d38.9029838!4d-77.0617318!16s%2Fm%2F0k28y5y"
+              target="_blank"
+              className="underline"
+            >
+              3100 South Street NW, Washington, D.C. 20007
+            </a>
+          </p>
+          <ol>
+            <li className="mb-4">
+              <strong>8:00 - 10:00pm</strong>
+            </li>
+          </ol>
+          <p className="mb-4">
+            The bride, groom, and their families will be hanging around the hotel lobby
+            post-rehearsal dinner. We'd love to see you if you're able to swing by!
           </p>
         </section>
         <section>
@@ -23,7 +40,7 @@ const EventDetails = ({ imgSrc }: EventDetailsType) => (
             <em>Saturday, October 21</em>
           </p>
           <p className="mb-4">
-            <strong>The Ritz-Carlton, Georgetown</strong>
+            <strong>The Ritz-Carlton Georgetown</strong>
             <br />
             <a
               href="https://www.google.com/maps/place/The+Ritz-Carlton+Georgetown,+Washington,+D.C./@38.9029838,-77.0639205,17z/data=!3m2!4b1!5s0x89b7b64c1b993003:0x5bcd719f7c6e2191!4m11!3m10!1s0x89b7b64c1b65ffc1:0x50f48f3cd9383f34!5m4!1s2023-07-02!2i6!4m1!1i2!8m2!3d38.9029838!4d-77.0617318!16s%2Fm%2F0k28y5y"
@@ -38,28 +55,46 @@ const EventDetails = ({ imgSrc }: EventDetailsType) => (
           </p>
           <ol>
             <li className="mb-4">
-              <strong>4:30pm - 4:45 PM</strong>
+              <strong>4:30 - 4:45pm</strong>
               <br />
               Guest Arrival
             </li>
             <li className="mb-4">
-              <strong>5:00pm - 5:30 PM</strong>
+              <strong>5:00 - 5:30pm</strong>
               <br />
               Ceremony
             </li>
             <li className="mb-4">
-              <strong>5:30pm - 6:30 PM</strong>
+              <strong>5:30 - 6:30pm</strong>
               <br />
               Cocktail Hour
             </li>
             <li className="mb-4">
-              <strong>6:30pm - 10:30 PM</strong>
+              <strong>6:30 - 10:30pm</strong>
               <br />
               Dinner & Jubilation
             </li>
           </ol>
         </section>
       </div>
+      <section>
+        <h3>After Party</h3>
+        <p className="text-lg">
+          <em>Saturday, October 21</em>
+        </p>
+        <p className="mb-4">
+          <strong>Clubhouse: Cocktails & Coffee</strong>
+          <br />
+          <a href="https://goo.gl/maps/2u95GgqZC6TB3pjY9" target="_blank" className="underline">
+            1070 Wisconsin Ave NW, Washington, DC
+          </a><br />
+          (Take the elevator or stairs downstairs.)
+        </p>
+        <p className="mb-4">
+          The newlyweds will grab celebratory drinks following the reception here. You're welcome to
+          join!
+        </p>
+      </section>
     </div>
     <div className="w-full md:w-1/2 lg:w-1/2 xl:1/3 rounded-lg overflow-hidden mx-auto aspect-square md:aspect-auto object-fill">
       <Image alt="feature" className="w-full h-auto" src={imgSrc} />
