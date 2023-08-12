@@ -10,7 +10,7 @@ export default function handler(req: NextApiRequest, res: NextApiResponse<Questi
     {
       question: 'When is the RSVP deadline?',
       answer: [
-        'Please RSVP by XXXX, so we can have an accurate headcount and your preferred menu selections.',
+        'Please RSVP by <b>Friday, September 15, 2023</b>, so we can have an accurate headcount and your preferred menu selections.',
       ],
     },
     {
