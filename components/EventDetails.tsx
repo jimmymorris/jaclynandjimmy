@@ -50,9 +50,6 @@ const EventDetails = ({ imgSrc }: EventDetailsType) => (
               3100 South Street NW, Washington, D.C. 20007
             </a>
           </p>
-          <p className="mb-4">
-            <em>Times are subject to change.</em>
-          </p>
           <ol>
             <li className="mb-4">
               <strong>4:30 - 4:45pm</strong>
