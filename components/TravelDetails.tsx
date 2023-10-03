@@ -17,12 +17,15 @@ const TravelDetails = () => (
     </section>
     <div className="grid grid-cols-1 md:grid-cols-2 gap-8 my-4">
       <HotelCard
-        name="The Ritz-Carlton, Georgetown"
+        name="The Ritz-Carlton Georgetown"
         address="3100 South Street NW, Washington, D.C. 20007"
         mapLink="https://www.google.com/maps/place/The+Ritz-Carlton+Georgetown,+Washington,+D.C./@38.9029838,-77.0639205,17z/data=!3m2!4b1!5s0x89b7b64c1b993003:0x5bcd719f7c6e2191!4m11!3m10!1s0x89b7b64c1b65ffc1:0x50f48f3cd9383f34!5m4!1s2023-07-02!2i6!4m1!1i2!8m2!3d38.9029838!4d-77.0617318!16s%2Fm%2F0k28y5y"
         description={
           <>
-            <p>All of the festivities will be held at this location.</p>
+            <p>
+              All festivities will be held at this location. <em>Please</em> pay close attention to
+              the address, as there are two Ritz-Carlton hotels in the area.
+            </p>
             <p>
               We have a limited number of guest rooms available at a discount. Please use the
               provided link, or our discount code “Randolph/Morris Wedding” to book. Our wedding and

@@ -14,7 +14,12 @@ const EventDetails = ({ imgSrc }: EventDetailsType) => (
             <em>Friday, October 20</em>
           </p>
           <p className="mb-4">
-            <strong>Degrees Bistro / Lobby Bar</strong>
+            <strong>
+              <a href="https://www.degreesbistro.com/" target="_blank" className="underline">
+                Degrees Bistro
+              </a>{' '}
+              / Lobby Bar
+            </strong>
             <br />
             <a
               href="https://www.google.com/maps/place/The+Ritz-Carlton+Georgetown,+Washington,+D.C./@38.9029838,-77.0639205,17z/data=!3m2!4b1!5s0x89b7b64c1b993003:0x5bcd719f7c6e2191!4m11!3m10!1s0x89b7b64c1b65ffc1:0x50f48f3cd9383f34!5m4!1s2023-07-02!2i6!4m1!1i2!8m2!3d38.9029838!4d-77.0617318!16s%2Fm%2F0k28y5y"
@@ -31,7 +36,11 @@ const EventDetails = ({ imgSrc }: EventDetailsType) => (
           </ol>
           <p className="mb-4">
             The bride, groom, and their families will be hanging around the hotel lobby
-            post-rehearsal dinner. We'd love to see you if you're able to swing by!
+            post-rehearsal dinner. We'd love to see you if you're able to swing by! For menu and
+            pricing, please visit{' '}
+            <a href="https://www.degreesbistro.com/" target="_blank" className="underline">
+              degreesbistro.com
+            </a>
           </p>
         </section>
         <section>
@@ -40,7 +49,13 @@ const EventDetails = ({ imgSrc }: EventDetailsType) => (
             <em>Saturday, October 21</em>
           </p>
           <p className="mb-4">
-            <strong>The Ritz-Carlton Georgetown</strong>
+            <a
+              href="https://www.ritzcarlton.com/en/hotels/wasgo-the-ritz-carlton-georgetown-washington-d-c/overview/"
+              target="_blank"
+              className="underline"
+            >
+              <strong>The Ritz-Carlton Georgetown</strong>
+            </a>
             <br />
             <a
               href="https://www.google.com/maps/place/The+Ritz-Carlton+Georgetown,+Washington,+D.C./@38.9029838,-77.0639205,17z/data=!3m2!4b1!5s0x89b7b64c1b993003:0x5bcd719f7c6e2191!4m11!3m10!1s0x89b7b64c1b65ffc1:0x50f48f3cd9383f34!5m4!1s2023-07-02!2i6!4m1!1i2!8m2!3d38.9029838!4d-77.0617318!16s%2Fm%2F0k28y5y"
@@ -49,6 +64,22 @@ const EventDetails = ({ imgSrc }: EventDetailsType) => (
             >
               3100 South Street NW, Washington, D.C. 20007
             </a>
+          </p>
+          <p>
+            There are two Ritz-Carlton hotels in this part of town. Please ensure you come to{' '}
+            <a
+              href="https://www.ritzcarlton.com/en/hotels/wasgo-the-ritz-carlton-georgetown-washington-d-c/overview/"
+              target="_blank"
+              className="underline"
+            >
+              The Ritz-Carlton Georgetown
+            </a>{' '}
+            at the address listed above.
+          </p>
+          <p>
+            <strong>Attire</strong>
+            <br />
+            Cocktail
           </p>
           <ol>
             <li className="mb-4">
@@ -80,16 +111,25 @@ const EventDetails = ({ imgSrc }: EventDetailsType) => (
           <em>Saturday, October 21</em>
         </p>
         <p className="mb-4">
-          <strong>Clubhouse: Cocktails & Coffee</strong>
+          <a href="https://www.clubhousedc.co/" target="_blank" className="underline">
+            <strong>Clubhouse: Cocktails & Coffee</strong>
+          </a>
           <br />
           <a href="https://goo.gl/maps/2u95GgqZC6TB3pjY9" target="_blank" className="underline">
             1070 Wisconsin Ave NW, Washington, DC
-          </a><br />
+          </a>
+          <br />
           (Take the elevator or stairs downstairs.)
         </p>
         <p className="mb-4">
           The newlyweds will grab celebratory drinks following the reception here. You're welcome to
           join!
+        </p>
+        <p className="mb-4">
+          For menu and pricing, please visit{' '}
+          <a href="clubhousedc.co" target="_blank" className="underline">
+            clubhousedc.co
+          </a>
         </p>
       </section>
     </div>
